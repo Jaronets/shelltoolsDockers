@@ -9,6 +9,7 @@ RUN apt-get install -y nfs-common
 RUN apt-get install -y openssh-server
 RUN apt-get install -y sudo
 RUN apt-get install -y apache2
+RUN apt-get install -y telnet
 RUN apt-get clean
 #COPY passwd /etc/passwd
 #COPY shadow /etc/shadow
